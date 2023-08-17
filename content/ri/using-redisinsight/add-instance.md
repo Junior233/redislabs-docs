@@ -46,8 +46,8 @@ To add a standalone Redis database to RedisInsight:
        You can also paste a Connection URL. When pasted, the database details are automatically filled.
 
        The following Connection URLs are supported:
-         - [`redis://[[user]:[pass]]@host:port`](https://www.iana.org/assignments/uri-schemes/prov/redis)
-         - [`rediss://[[user]:[pass]]@host:port`](https://www.iana.org/assignments/uri-schemes/prov/rediss)
+         - [`redis://[[user]:[pass]@]host:port`](https://www.iana.org/assignments/uri-schemes/prov/redis)
+         - [`rediss://[[user]:[pass]@]host:port`](https://www.iana.org/assignments/uri-schemes/prov/rediss)
          - `host:port`
     - **Port**: The port your Redis database is available on. The default port for Redis is `6379`.
     - **Name**: A name for your Redis database. It does not have to match the name of the database in the Redis cluster.
